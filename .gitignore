@@ -1,0 +1,30 @@
+# Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+.env
+
+# OS & Temporary files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
+
+# Data & Output Artifacts
+data/*.csv
+artifacts/*
+reports/*.png
+reports/*.json
+reports/*.csv
+!data/README.md
+!artifacts/.gitkeep
+!reports/.gitkeep
